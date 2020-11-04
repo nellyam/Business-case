@@ -1,0 +1,131 @@
+/**********GENERAL***************/
+body {
+  font-family: "Roboto", serif;
+}
+
+/***********HEADER**************/
+
+header {
+  background-color: #19194e;
+  height: 80px;
+}
+
+header nav {
+  display: flex;
+  color: white;
+}
+
+header nav img {
+  display: block;
+  border-radius: 70px;
+  width: 100px;
+  margin-left: 15px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  font-family: Roboto, serif;
+}
+
+header nav ul {
+  width: 85%;
+}
+
+i {
+  width: 20px;
+  height: 20px;
+}
+
+/************PARTIE MAIN  SECTION #CHIEN****************/
+
+#chien {
+  background-image: url("../img/goldenret.webp");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin: 50px 30px 30px 0px;
+  padding: 60px 30px;
+  font-size: 18px;
+}
+
+#chien h1 {
+  font-size: 60px;
+  margin: 0px 0px 50px 30px;
+}
+
+#chien p {
+  margin-bottom: 70px;
+  margin-left: 30px;
+}
+
+
+/************PARTIE MAIN  SECTION ARTICLE****************/
+
+article {
+  width: 93%;
+  margin: -80px 0px 30px 65px;
+  background-color: white;
+  padding: 70px 30px;
+  
+}
+
+article #recherche {
+  color: #19194e;
+  font-size: 23px;
+}
+
+article #caniche {
+  width: 430px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 7px 13px;
+  margin-right: 20px;
+  color: gray;
+  font-size: 22px;
+  background-color: rgba(233, 223, 223, 0.2);
+}
+
+article button {
+  width: 160px;
+  height: 50px;
+  border: none;
+  background-color: #ac5e11;
+  color: white;
+  font-size: 18px;
+}
+
+article #result {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+article #filtre div{
+  width: 510px;
+  height: 87px;
+  background-color:  #19194e;
+  position: relative;
+  left: 105px;
+  bottom: 170px;
+  border: 1px solid white;
+}
+
+#first {
+  background-color: #ac5e11 !important;
+}
+
+article i {
+  position: relative;
+  left: 300px;
+  color: rgb(71, 69, 69);
+}
