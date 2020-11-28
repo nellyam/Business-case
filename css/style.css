@@ -27,6 +27,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 85%;
 }
 
 header nav ul li {
@@ -38,9 +39,7 @@ header nav ul li a {
   font-family: Roboto, serif;
 }
 
-header nav ul {
-  width: 85%;
-}
+
 
 i {
   width: 20px;
@@ -79,8 +78,13 @@ article {
 }
 
 article #recherche {
-  color: #0F1838;
+  color: #0f1838;
   font-size: 23px;
+}
+article i {
+  position: relative;
+  left: 300px;
+  color: rgb(71, 69, 69);
 }
 
 article #caniche {
@@ -98,7 +102,7 @@ article button {
   width: 160px;
   height: 50px;
   border: none;
-  background-color: #AC6F14;
+  background-color: #ac6f14;
   color: white;
   font-size: 18px;
 }
@@ -108,10 +112,11 @@ article #result {
   font-weight: bold;
 }
 
+/******************************FILTRE*****************/
 article #filtre div {
   width: 510px;
   height: 87px;
-  background-color: #0F1838;
+  background-color: #0f1838;
   position: relative;
   left: 105px;
   bottom: 170px;
@@ -119,22 +124,118 @@ article #filtre div {
   color: white;
 }
 
-
 article #filtre p {
   font-size: 24px;
   letter-spacing: 1px;
-
 }
+
+/******************PREMIER CARRE*****************************/
 #first {
-  background-color: #AC6F14 !important;
+  background-color: #ac6f14 !important;
 }
 
-#filtre lettres {
+#first p {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+/***********************DEUXIEME CARRE***************************************/
+
+#filtre #lettres {
   height: 30px;
+  margin: 0px 20px 0px -80px;
 }
 
-article i {
+#filtre div:nth-child(0n + 2) p {
+  margin: 0px 0px -7px -5px;
+}
+
+/*******************************TROISIEME CARRE*****************************************/
+
+#filtre div:nth-child(0n + 3) img {
+  margin: 0px 0px 0px -200px;
+}
+
+#filtre div:nth-child(0n + 3) p {
+  margin: 0px 0px -7px 40px;
+}
+
+/**********************************QUATRIEME CARRE***********************************************/
+
+#filtre div:nth-child(0n + 4) img {
+  margin: 0px 0px 0px -130px;
+}
+
+#filtre div:nth-child(0n + 4) p {
   position: relative;
-  left: 300px;
-  color: rgb(71, 69, 69);
+  left: 40px;
+}
+
+/*********************************resultatDeRecherche********************************************/
+
+#resultatDeRecherche {
+  margin-top: -120px;
+}
+
+#resultatDeRecherche article img {
+  width: 300px;
+  height: 300px;
+}
+
+#resultatDeRecherche article ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+#resultatDeRecherche article div p {
+  margin-left: 20px;
+}
+
+#resultatDeRecherche article div p:nth-child(0n + 2) {
+  margin-bottom: 0px;
+}
+
+#resultatDeRecherche article div p:nth-child(0n + 3) {
+  color: grey;
+}
+
+#resultatDeRecherche article div p:last-child {
+  background-color: #ac6f14;
+  text-align: center;
+  padding: 13px 0px;
+  width: 150px;
+  color: white;
+  margin-top: 50px;
+}
+
+/********************************SECTION DE NUMEROS DE PAGES**************************/
+
+#numeroPage p {
+  height: 50px;
+  margin: 50px;
+  background-color: #ebdcdc;
+  padding: 20px;
+  border-radius: 100%;
+  line-height: 100%;
+}
+
+#numeroPage p:first-of-type {
+  background-color: white;
+}
+
+#numeroPage img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/******************************************FIN MAIN********************************************/
+
+/************************************FOOTER********************************************/
+
+footer {
+  margin: 100px 0px 50px;
+}
+
+footer div p {
+  margin-bottom: 5px;
 }

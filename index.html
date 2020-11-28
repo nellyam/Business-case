@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,50 +10,60 @@
     <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
-       <nav>
-           <img src="img/logo.jpg" alt="logo">
-           <ul>
-               <li>
-                   <a href="#" class="font-weight-bold">Accueil</a>
-                   <i class="fas fa-caret-down"></i>
-            </li>
-               <li>
-                   <a href="#" class="font-weight-bold">Vente</a>
-                   <i class="fas fa-caret-down"></i>
+        <nav>
+            <img src="img/logo.jpg" alt="logo">
+            <ul>
+                <li>
+                    <a href="#" class="font-weight-bold">Accueil</a>
+                    <i class="fas fa-caret-down"></i>
                 </li>
-               <li><a href="#" class="font-weight-bold">Nelli Amirkhanian</a>
-                <i class="fas fa-sign-out-alt"></i>               
-            </li>
-           </ul>         
-       </nav>
+                <li>
+                    <a href="#" class="font-weight-bold">Vente</a>
+                    <i class="fas fa-caret-down"></i>
+                </li>
+                <li><a href="#" class="font-weight-bold">Nelli Amirkhanian</a>
+                    <i class="fas fa-sign-out-alt"></i>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="chien">
-              <h1 class="font-weight-bold">Trouver un chien</h1>
-                <p class="font-weight-bold">Ce moteur de recherche vous permet de trouver<br>les portées disponibles par race et par département.</p>
-                <p class="font-weight-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Maxime provident molestias nam voluptas quidem ipsum, <br>facilis omnis deserunt consectetur dolorem corporis enim<br>morbi.</p>
-                <p class="font-weight-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Maxime provident molestias nam voluptas quidem ipsum, <br>facilis omnis deserunt consectetur dolorem corporis enim<br>morbi.</p>
-            </section>
+            <h1 class="font-weight-bold">Trouver un chien</h1>
+            <p class="font-weight-bold">Ce moteur de recherche vous permet de trouver<br>les portées disponibles par
+                race et par département.</p>
+            <p class="font-weight-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Maxime provident
+                molestias nam voluptas quidem ipsum, <br>facilis omnis deserunt consectetur dolorem corporis
+                enim<br>morbi.</p>
+            <p class="font-weight-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Maxime provident
+                molestias nam voluptas quidem ipsum, <br>facilis omnis deserunt consectetur dolorem corporis
+                enim<br>morbi.</p>
+        </section>
 
-            <article class="shadow d-flex">
+
+        <section class="shadow">
+            <article class="d-flex shadow">
                 <div>
                     <p id="recherche">Par le nom de la race</p>
                     <div class="d-flex">
                         <p id="caniche">caniche <i class="fas fa-times"></i></p>
-                       
-                    <button>Rechercher</button>
+
+                        <button>Rechercher</button>
                     </div>
                     <p id="result">56 chiens correspondent à votre saisie</p>
                 </div>
+
+                <!--PARTIE FILTRE-->
                 <div id="filtre">
                     <div id="first" class="d-flex justify-content-center align-items-center">
-                        <img src="img/search.png">
+                        <img src="img/search.png" id="searchIcon">
                         <p class="font-weight-bold">Par le nom de la race (mot-clé)</p>
                     </div>
 
-                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center align-items-center" id="second">
                         <img src="img/ABC.png" id="lettres">
                         <p class="font-weight-bold">Par ordre alphabétique</p>
                     </div>
@@ -60,16 +71,114 @@
                     <div class="d-flex justify-content-center align-items-center">
                         <img src="img/dog_2.png">
                         <p class="font-weight-bold">Par sa taille</p>
-                        
+
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
                         <img src="img/house.png">
-                        <p class="font-weight-bold">Par son groupe racial</p></div>
+                        <p class="font-weight-bold">Par son groupe racial</p>
+                    </div>
                 </div>
-                
-                
             </article>
+
+            <!--Résultat de la recherche-->
+            <section id="resultatDeRecherche">
+                <div class="container-fluid">
+                  <div class="row">
+                    <article class="d-flex col">
+                        <img src="img/caniche.jpg" alt="caniche noir">
+                        <div id="textAnnonce">
+                            <ul>
+                               <li>Caniche Toy</li>
+                               <li>Age: 13 mois</li>
+                               <li>Sexe: mâle</li>
+                               <li>Vacciné: oui</li>
+                             </ul>
+                             <p>Val-de-Mar(94)/<br>Villefranche</p>
+                             <p>Publié aujourd'hui</p>
+                             <p>250 €</p>
+                         </div>
+                    </article>
+
+                                        
+                    <article class="d-flex col">
+                        <img src="img/canichetoy.jpg" alt="caniche noir">
+                        <div id="textAnnonce">
+                           <ul>
+                              <li>Caniche</li>
+                              <li>Age: 15 mois</li>
+                              <li>Sexe: femelle</li>
+                              <li>Vacciné: oui</li>
+                           </ul>
+                            <p>Boug-en-Bresse(01)/<br>Ain</p>
+                            <p>Publié hier</p>
+                            <p>400 €</p>
+                        </div>
+                    </article>
+
+                  </div>
+                </div>
+  
+                <div class="container-fluid">
+                    <div class="row">
+                       <article class="d-flex col">
+                          <img src="img/encartNain.png" alt="caniche noir">
+                          <div id="textAnnonce">
+                          <ul>
+                            <li>Caniche Toy</li>
+                            <li>Age: 6 mois</li>
+                            <li>Sexe: femelle</li>
+                            <li>Vacciné: oui</li>
+                        </ul>
+                        <p>Miribel(01)/<br>Ain</p>
+                        <p>Publié 09/10/2020</p>
+                        <p>150 €</p>
+                     </div>
+                    </article>
+
+                    <article class="d-flex col">
+                       <img src="img/canicheBlanc.jpg" alt="caniche noir">
+                       <div id="textAnnonce">
+                        <ul>
+                            <li>Caniche</li>
+                            <li>Age: 18 mois</li>
+                            <li>Sexe: mâle</li>
+                            <li>Vacciné: oui</li>
+                        </ul>
+                        <p>Lyon(69)/<br>Rhône-Alpes</p>
+                        <p>Publié 03/10/2020</p>
+                        <p>300 €</p>
+                    </div>
+                   </article>
+                    </div>
+                </div>  
+            </section>
+          <!--FIN DE RESULTAT DE RECHERCHE-->
+  
+
+          <!--SECTION DE NUMEROS DE PAGES-->
+          <section class="d-flex justify-content-center align-items-center" id="numeroPage">
+              <img src="img/Polygon 1.png" alt="polygon">
+              <p class="shadow">1</p>
+              <p>2</p>
+              <p>3</p>
+              <p>4</p>
+              <p>5</p>
+              <img src="imG/Polygon 2.png" alt="polygon">
+          </section>
+        </section>
     </main>
-    
+    <!--*******************************************FIN MAIN**********************************************-->
+
+   <!--*******************************************DEBUT FOOTER**********************************************-->
+
+      <footer class="d-flex justify-content-md-around align-items-center">
+         <p>Nous contacter</p>
+         <p>Conditions générales d'utilisation du site</p>
+         <div>
+             <p>Restons connectés</p>
+             <img src="img/facebook 1.png" alt="logoFacebook" class="ml-2 mr-4">
+             <img src="img/insta 1.png" alt="logoInsta"  class="ml-2">
+         </div>
+      </footer>
 </body>
 </html>

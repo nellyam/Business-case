@@ -1,0 +1,108 @@
+/**********************************css deuzieme page******************************/
+
+/**********GENERAL***************/
+body {
+  font-family: "Roboto", serif;
+}
+
+/***********HEADER**************/
+
+header {
+  background-color: #19194e;
+  height: 80px;
+}
+
+header nav {
+  display: flex;
+  color: white;
+}
+
+header nav img {
+  display: block;
+  border-radius: 70px;
+  width: 100px;
+  margin-left: 15px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+}
+
+header nav ul li {
+  margin: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  font-family: Roboto, serif;
+}
+
+/*******************************partie main******************************/
+
+main section {
+  margin: 60px 100px;
+}
+
+main section article {
+  margin-right: 120px;
+}
+
+main section article #textAnnonce {
+  margin-top: 15px;
+}
+
+main section article #textAnnonce p:last-child {
+  background-color: #ac6f14;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+main section article img {
+  width: 300px;
+  height: 300px;
+}
+
+main section article div p {
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+main section aside p:first-of-type {
+  width: 450px;
+}
+
+main section aside p:last-of-type {
+    margin-bottom: 5px;
+  }
+
+  main section aside div  {
+    margin-bottom: 5px;
+}
+
+main section aside div img {
+    max-height: 40px;
+}
+
+
+
+#carouselExampleControls  {
+    width: 700px;
+    height: 600px;
+}
+
+
+#carouselExampleControls  img{
+    width: 700px;
+    height: 600px;
+}
