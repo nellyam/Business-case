@@ -55,7 +55,7 @@ main section article #textAnnonce {
   margin-top: 15px;
 }
 
-main section article #textAnnonce p:last-child {
+main section article #textAnnonce p:nth-child(0n+4) {
   background-color: #ac6f14;
   text-align: center;
   color: white;
@@ -72,6 +72,11 @@ main section article div p {
   margin-left: 20px;
   margin-bottom: 0px;
 }
+
+main section article div p:nth-child(0n+3), p:last-child {
+  color: gray;
+}
+
 
 ul {
   list-style: none;
@@ -90,6 +95,7 @@ main section aside p:last-of-type {
     margin-bottom: 5px;
 }
 
+
 main section aside div img {
     max-height: 40px;
 }
@@ -105,4 +111,16 @@ main section aside div img {
 #carouselExampleControls  img{
     width: 700px;
     height: 600px;
+}
+
+/******************************************FIN MAIN********************************************/
+
+/************************************FOOTER********************************************/
+
+footer {
+  margin: 100px 0px 50px;
+}
+
+footer div p {
+  margin-bottom: 5px;
 }
