@@ -10,6 +10,7 @@ body {
 header {
   background-color: #19194e;
   height: 80px;
+  
 }
 
 header nav {
@@ -17,7 +18,7 @@ header nav {
   color: white;
 }
 
-header nav img {
+header img {
   display: block;
   border-radius: 70px;
   width: 100px;

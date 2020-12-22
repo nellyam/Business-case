@@ -6,8 +6,14 @@ body {
 /***********HEADER**************/
 
 header {
+  display: flex;
   background-color: #19194e;
   height: 80px;
+  position: fixed;
+  height: 90px;
+  width: 1300px;
+  top: 0px;
+  z-index: 1;
 }
 
 header nav {
@@ -15,8 +21,8 @@ header nav {
   color: white;
 }
 
-header nav img {
-  display: block;
+header  img {
+
   border-radius: 70px;
   width: 100px;
   margin-left: 15px;
@@ -24,14 +30,14 @@ header nav img {
 
 header nav ul {
   list-style: none;
-  display: flex;
-  justify-content: space-around;
+  display: flex;  
   align-items: center;
-  width: 85%;
+  margin-top: 15px;
 }
 
 header nav ul li {
-  margin: 15px;
+  
+  margin-left: 180px;
 }
 
 header nav ul li a {
@@ -53,7 +59,7 @@ i {
   background-size: cover;
   background-position: center;
   color: white;
-  margin: 50px 30px 30px 0px;
+  margin: 130px 30px 30px 0px;
   padding: 60px 30px;
   font-size: 18px;
 }
@@ -71,7 +77,7 @@ i {
 /************PARTIE MAIN  SECTION ARTICLE****************/
 
 article {
-  width: 93%;
+  
   margin: -80px 0px 30px 65px;
   background-color: white;
   padding: 70px 30px;
@@ -114,20 +120,18 @@ article #result {
 
 /******************************FILTRE*****************/
 article #filtre div {
-  width: 510px;
+  width: 450px;
   height: 87px;
   background-color: #0f1838;
   position: relative;
-  left: 105px;
+  left: 79px;
   bottom: 170px;
   border: 1px solid white;
   color: white;
-}
-
-article #filtre p {
-  font-size: 24px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
+
 
 /******************PREMIER CARRE*****************************/
 #first {
@@ -135,7 +139,7 @@ article #filtre p {
 }
 
 #first p {
-  margin-left: 50px;
+  margin-left: 35px;
   margin-top: 20px;
 }
 
@@ -147,34 +151,36 @@ article #filtre p {
 }
 
 #filtre div:nth-child(0n + 2) p {
-  margin: 0px 0px -7px -5px;
+  margin: 0px 0px -7px 0px;
 }
 
 /*******************************TROISIEME CARRE*****************************************/
 
 #filtre div:nth-child(0n + 3) img {
-  margin: 0px 0px 0px -200px;
+  margin: 0px 0px 0px -160px;
 }
 
 #filtre div:nth-child(0n + 3) p {
-  margin: 0px 0px -7px 40px;
+  margin: 0px 0px -7px 30px;
 }
 
 /**********************************QUATRIEME CARRE***********************************************/
 
 #filtre div:nth-child(0n + 4) img {
-  margin: 0px 0px 0px -130px;
+  margin: 0px 0px 0px -100px;
 }
 
 #filtre div:nth-child(0n + 4) p {
   position: relative;
-  left: 40px;
+  left: 30px;
+  top: 10px;
 }
 
 /*********************************resultatDeRecherche********************************************/
 
 #resultatDeRecherche {
   margin-top: -120px;
+  margin-left: -10px;
 }
 
 #resultatDeRecherche article img {
