@@ -245,3 +245,20 @@ footer {
 footer div p {
   margin-bottom: 5px;
 }
+
+
+/************************************
+          MEDIA QUERIES
+************************************/
+
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (min-width: 1285px)
+{
+    article #filtre div 
+    {
+         position: relative;
+  left: 165px;
+    }
+}
+
