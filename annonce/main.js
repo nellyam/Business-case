@@ -5,25 +5,44 @@
  ****************************/
 
 let photos = [ 
-    {src: "canicheScroll.png"}, 
-    {src: "2.jpg"},
-    {src: "3.jpg"},
-    {src: "4.jpg"},
-    {src: "5.jpg"},
-    {src: "6.jpg"}
+    "canicheScroll.png", 
+    "canicheScroll5.jpg",
+    "canicheScrol.jpg"
     ];
 
- let prevButton = document.querySelector("article #previous");
+ let prevButton = document.querySelector("#previous");
+ console.log(prevButton);
  let nextButton = document.querySelector("article #next");
  let image = document.querySelector("article #slide");
+ let counter = 0;
 
 
 /***************************
  * FONCTIONS
  ****************************/
  function next() {
-     let i = 0;
+    image.classList.add("tailleStandard");
+    counter++;
+     if( counter == photos.length) {
+        counter = 0;
+     }
+     image.src = "../img/" + photos[counter];
 
  }
 
- function previous() {}
+ function previous() {
+   image.classList.add("tailleStandard");
+   counter--;
+    if( counter < 0) {
+       counter = photos.length - 1;
+    }
+    image.src = "../img/" + photos[counter];
+
+ }
+
+/***************************
+ * EVENT HANDLERS
+ ****************************/
+
+nextButton.addEventListener("click", next);
+prevButton.addEventListener("click", previous);
