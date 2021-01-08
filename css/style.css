@@ -2,6 +2,10 @@
 body {
   font-family: "Roboto", serif;
 }
+.row a {
+  text-decoration: none;
+  color: black;
+}
 
 /***********HEADER**************/
 
