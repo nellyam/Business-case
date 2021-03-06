@@ -140,3 +140,19 @@ footer {
 footer div p {
   margin-bottom: 5px;
 }
+
+/************************************************************************
+                           MEDIA QUERIES      
+************************************************************************/
+
+@media screen and (max-width: 991px) {
+  main section {
+    flex-direction: column;   
+  }
+
+
+  footer {
+    flex-direction: column;
+  }
+
+}

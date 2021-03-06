@@ -8,10 +8,9 @@ body {
 header {
   display: flex;
   background-color: #19194e;
-  height: 80px;
-  position: fixed;
   height: 90px;
   width: 100%;
+  position: fixed;
   top: 0px;
   z-index: 1;
 }
@@ -19,10 +18,10 @@ header {
 header nav {
   display: flex;
   color: white;
+  margin-left: 50px;
 }
 
 header  img {
-
   border-radius: 70px;
   width: 100px;
   margin-left: 15px;
@@ -36,9 +35,9 @@ header nav ul {
 }
 
 header nav ul li {
-  
-  margin-left: 180px;
+ margin-left: 180px;
 }
+
 
 header nav ul li a {
   color: white;
@@ -52,7 +51,7 @@ i {
   height: 20px;
 }
 
-/************PARTIE MAIN  SECTION #CHIEN****************/
+/************PARTIE MAIN SECTION #CHIEN****************/
 
 #chien {
   background-image: url("../img/goldenret.webp");
