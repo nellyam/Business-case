@@ -1,9 +1,15 @@
-/**********GENERAL***************/
+/********************************************************************************************************
+                                              GENERAL
+*********************************************************************************************************/
 body {
   font-family: "Roboto", serif;
 }
 
-/***********HEADER**************/
+
+
+/********************************************************************************************************
+                                              HEADER
+*********************************************************************************************************/
 
 header {
   display: flex;
@@ -247,12 +253,22 @@ footer div p {
 
 
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
-@media screen and (min-width: 1285px)
+
+  
+  @media screen and (min-width: 1285px)
 {
     article #filtre div 
     {
          position: relative;
-  left: 165px;
+         left: 220px;
     }
 }
+  @media screen and (max-width: 992px) {
+    article #filtre div 
+    {
+         position: relative;
+         left: 2px;
+    }
+  }
+
 
