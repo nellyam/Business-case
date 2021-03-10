@@ -22,10 +22,12 @@ header {
 }
 
 header nav {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   color: white;
-  margin-left: 130px;
+  text-align: center;
 }
 
 header  img {
@@ -35,9 +37,6 @@ header  img {
 }
 
 
-header nav div{
- margin-left: 180px;
-}
 
 
 header nav div a {
