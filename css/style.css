@@ -117,7 +117,7 @@ article #filtre div {
   width: 450px;
   height: 87px;
   background-color: #0f1838;
-  position: relative;
+  position: absolute;
   left: 79px;
   bottom: 170px;
   border: 1px solid white;
