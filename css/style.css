@@ -255,7 +255,7 @@ footer div p {
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 
   
-  @media screen and (min-width: 1285px)
+  @media screen and (min-width: 985px)
 {
     article #filtre div 
     {
@@ -263,12 +263,35 @@ footer div p {
          left: 220px;
     }
 }
-  @media screen and (max-width: 992px) {
-    article #filtre div 
+  @media screen and (max-width: 1024px) {
+
+    body {
+      width: 90%;
+      margin: auto;
+    }
+
+    main article.shadow
     {
-         position: relative;
-         left: 2px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #resultatDeRecherche {
+      margin-top: 10px;
+
+     
+    }
+
+    article #filtre div {
+      position: static;
+    }
+
+    article #filtre  {
+      margin-bottom: 50px;
     }
   }
+
+  
+
 
 
