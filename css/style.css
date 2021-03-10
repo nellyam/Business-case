@@ -17,8 +17,9 @@ header {
 
 header nav {
   display: flex;
+  align-items: center;
   color: white;
-  margin-left: 50px;
+  margin-left: 130px;
 }
 
 header  img {
@@ -27,19 +28,13 @@ header  img {
   margin-left: 15px;
 }
 
-header nav ul {
-  list-style: none;
-  display: flex;  
-  align-items: center;
-  margin-top: 15px;
-}
 
-header nav ul li {
+header nav div{
  margin-left: 180px;
 }
 
 
-header nav ul li a {
+header nav div a {
   color: white;
   font-family: Roboto, serif;
 }
