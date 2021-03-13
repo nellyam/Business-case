@@ -78,13 +78,13 @@ i {
 
 section.shadow {
   margin: -80px 0px 30px 45px;
-  width: 94.7%;
+  width: 94.1%;
 }
 
 /************PARTIE MAIN  SECTION ARTICLE****************/
 
 article {
-
+  margin-bottom: 100px;
   background-color: white;
   padding: 70px 30px;
 }
@@ -125,17 +125,20 @@ article #result {
 }
 
 /******************************FILTRE*****************/
+#filtre {
+   margin-top: -155px;
+   margin-right: -30px;
+}
+
 article #filtre div {
   width: 450px;
   height: 87px;
   background-color: #0f1838;
-  position: absolute;
-  left: 79px;
-  bottom: 170px;
   border: 1px solid white;
   color: white;
   font-size: 18px;
   letter-spacing: 1px;
+
 }
 
 
@@ -186,8 +189,15 @@ article #filtre div {
 
 #resultatDeRecherche {
   margin-top: -120px;
-  margin-left: 10px;
-  
+  margin-left: 40px;
+
+}
+
+#resultatDeRecherche article {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #resultatDeRecherche article img {
@@ -261,15 +271,7 @@ footer div p {
 
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 
-  
-  @media screen and (min-width: 985px)
-{
-    article #filtre div 
-    {
-         position: relative;
-         left: 220px;
-    }
-}
+
   @media screen and (max-width: 1024px) {
 
     body {
