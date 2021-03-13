@@ -74,6 +74,8 @@ i {
 }
 
 
+/************SECTION .SHADOW****************/
+
 section.shadow {
   margin: -80px 0px 30px 45px;
   width: 94.7%;
@@ -184,7 +186,8 @@ article #filtre div {
 
 #resultatDeRecherche {
   margin-top: -120px;
-  margin-left: -10px;
+  margin-left: 10px;
+  
 }
 
 #resultatDeRecherche article img {
