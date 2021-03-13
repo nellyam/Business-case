@@ -73,11 +73,16 @@ i {
   margin-left: 30px;
 }
 
+
+section.shadow {
+  margin: -80px 0px 30px 45px;
+  width: 94.7%;
+}
+
 /************PARTIE MAIN  SECTION ARTICLE****************/
 
 article {
-  
-  margin: -80px 0px 30px 65px;
+
   background-color: white;
   padding: 70px 30px;
 }
