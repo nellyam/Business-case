@@ -84,7 +84,6 @@ section.shadow {
 /************PARTIE MAIN  SECTION ARTICLE****************/
 
 article {
-  margin-bottom: 100px;
   background-color: white;
   padding: 70px 30px;
 }
@@ -185,12 +184,12 @@ article #filtre div {
   top: 10px;
 }
 
-/*********************************resultatDeRecherche********************************************/
+/***************************************************************************
+                         id="resultatDeRecherche"
+****************************************************************************/
 
 #resultatDeRecherche {
-  margin-top: -120px;
   margin-left: 40px;
-
 }
 
 #resultatDeRecherche article {
@@ -214,11 +213,11 @@ article #filtre div {
   margin-left: 20px;
 }
 
-#resultatDeRecherche article div p:nth-child(0n + 2) {
+#resultatDeRecherche article div p:nth-child(2) {
   margin-bottom: 0px;
 }
 
-#resultatDeRecherche article div p:nth-child(0n + 3) {
+#resultatDeRecherche article div p:nth-child(3) {
   color: grey;
 }
 
@@ -230,6 +229,10 @@ article #filtre div {
   color: white;
   margin-top: 50px;
 }
+
+/***************************************************************************************************
+                                   FIN  id="resultatDeRecherche"
+***************************************************************************************************/
 
 /********************************SECTION DE NUMEROS DE PAGES**************************/
 
