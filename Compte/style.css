@@ -1,0 +1,116 @@
+
+  header {
+    background-color: #19194e;
+    height: 80px;
+  }
+  
+  header nav {
+    display: flex;
+    color: white;
+  }
+  
+  header img {
+    display: block;
+    border-radius: 70px;
+    width: 100px;
+    margin-left: 15px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+  }
+  
+  header nav ul li {
+    margin: 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    font-family: Roboto, serif;
+  }
+  
+
+  
+
+  /************************************MAIN********************************************/
+
+h4{
+   color: #19194e;
+   font-weight: bold;
+   padding: 30px 10px;
+}  
+
+#compte {
+    box-shadow: 5px 5px 7px grey;
+    margin-top: 20px;
+    
+}
+
+h3 {
+    background-color: #ac6f14;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 20px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+ 
+.modifier {
+    color:  #19194e;
+    font-weight: bolder;
+}
+
+#deux {
+    margin-top: 40px;
+}
+
+article {
+    width:  800px;
+   
+  
+}
+section {
+   
+    width: 70%;
+    margin: auto;
+}
+
+#carte1 {
+    padding: 50px;
+    margin: 50px auto;
+    width: 70%;
+    box-shadow: 3px 3px 5px grey;
+}
+
+
+  /************************************FOOTER********************************************/
+  
+  footer {
+    margin: 100px 0px 50px;
+  }
+  
+  footer div p {
+    margin-bottom: 5px;
+  }
+  
+  /************************************************************************
+                             MEDIA QUERIES      
+  ************************************************************************/
+  
+  @media screen and (max-width: 991px) {
+   
+
+    footer {
+      flex-direction: column;
+    }
+  
+  }
+  
